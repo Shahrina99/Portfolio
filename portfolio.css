@@ -1,0 +1,45 @@
+/* Shared Style */
+body{
+  font-family: "Open Sans", serif;
+  font-style: normal;
+
+}
+.orange-cl{
+    color: #FD6E0A;
+}
+
+/* Navigation Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Name{
+    font-size: 45px;
+    color: #181818 ;
+    font-weight: 800;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+.btn-hire{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+
+
+}
