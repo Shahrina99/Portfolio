@@ -188,3 +188,31 @@ main{
     justify-content: center;
     margin-top: 50px;
 }
+/* Footer Section Style */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 230px;
+}
+.social-links a{
+    margin-right: 20px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.contact input[type="text"], .contact input[type="email"] , textarea{
+    
+    font-family: "Open Sans", serif;display: block;
+    font-size: 16px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 0;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    width: 100%;
+}
